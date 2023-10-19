@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandesh Shrestha Phaju</title>
+      <link rel="icon" type="image/jpg" href="./public/sLogoo.jpg">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader"></div>
+    <section id="content">
+      <div id="profile-card">
+        <img src="public/photo.jpeg" alt="Your Name" />
+        <h1>Sandesh Shrestha Phaju</h1>
+        <p>Java Developer</p>
+        <p>Bsc.CSIT</p>
+        <div class="tech-container">
+          <div class="tech-links">
+            <a class="techStack" title="Java"
+             ><i class="fa-brands fa-java"></i
+            ></a>
+            <a class="techStack" title="Spring Boot"
+            ><i class="fa-solid fa-cogs"></i
+          ></a>
+          
+            
+            <a class="techStack" title="React"
+              ><i class="fa-brands fa-react"></i
+            ></a>
+            <a class="techStack" title="MySQL"
+              ><i class="fa-brands fa-envira"></i
+            ></a>
+
+            <a class="techStack" title="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="techStack" title="HTML"
+              ><i class="fa-brands fa-html5"></i
+            ></a>
+            <a class="techStack" title="CSS"
+              ><i class="fa-brands fa-css3-alt"></i
+            ></a>
+          </div>
+        </div>
+        <div class="projects">
+          <h2>Projects</h2>
+          <ul class="project-list">
+            <li>
+              <a href="" target="_blank"
+                >####</a
+              >
+            </li>
+            <li>
+              <a href="" target="_blank"
+                >####</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <a
+            class="github"
+            href="https://github.com/Sandesh7502"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/sandesh-shrestha-683165234/"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="Email"
+            href="mailto:sandeshshrestha797@gmail.com"
+            target="_blank"
+            title="Email"
+          >
+            <i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+
+        <div class="resume-download">
+          <a href="public/resumesandesh.pdf" download>Download Resume</a>
+        </div>
+      </div>
+      <div class="air air1"></div>
+
+      <div class="air air2"></div>
+      <div class="air air3"></div>
+      <div class="air air4"></div>
+    </section>
+    <script>
+      //JavaScript to control the display of the loader and content
+      document.addEventListener("DOMContentLoaded", function () {
+        // Show the loader initially
+        const loader = document.getElementById("loader");
+        const content = document.getElementById("content");
+
+        // Simulate loading time (You can remove this for actual asynchronous loading)
+        setTimeout(function () {
+          loader.style.display = "none"; // Hide the loader
+          content.style.display = "block"; // Show the content
+        }, 2000); // Replace this with actual loading logic
+      });
+    </script>
+  </body>
+</html>
